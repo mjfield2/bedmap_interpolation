@@ -18,7 +18,7 @@ def geo2ant(lat, lon):
 
 def xy_into_grid(gridx, gridy, coords, values, fill=np.nan, quiet=False):
     """
-    Place tabular data that is colocated with grid coordinates inside of grid.
+    Place tabular data that is colocated with grid coordinates inside of grid. UPDATE THIS
 
     Args:
         ds : xarray.Dataset with grid coordinates
